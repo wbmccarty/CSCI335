@@ -71,7 +71,7 @@ def getAssessment(id):
                         elif type(value) == float:
                             print >>b, '%s: %.2f' % (field, value)
                         else:
-                            print >>b, '%s:' % (field), value
+                            print >>b, '%s:' % field, value
                         found = True
                     except:
                         if field:
